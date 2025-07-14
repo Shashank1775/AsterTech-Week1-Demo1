@@ -7,7 +7,7 @@ Welcome to the AstersTech Web Demo! This guide will walk you through setting up 
 ## Step 1: Fork the Starter Repository
 
 1. You will receive a link to the starter repo, for example:  
-   `https://github.com/AstersTech/web-basics-practice`
+   `https://github.com/Shashank1775/AsterTech-Week1-Demo1`
 
 2. Open the link in your browser.
 
