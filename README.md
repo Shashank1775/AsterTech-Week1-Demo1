@@ -15,7 +15,7 @@ Welcome to the AstersTech Web Demo! This guide will walk you through setting up 
    This creates a copy of the repository in your own GitHub account.
 
 4. Your forked repo URL will look like:  
-   `https://github.com/your-username/web-basics-practice`
+   `https://github.com/your-username/AsterTech-Week1-Demo1`
 
 ---
 
