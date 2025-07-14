@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- This tells the browser we're using HTML5 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Sets character encoding so special characters display correctly -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Makes the layout responsive on mobile devices -->
+
+  <title>AstersTech Demo Site</title>
+  <!-- Title shown in the browser tab -->
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Connects our HTML to external CSS file -->
+</head>
+
+<body>
+  <!-- Visible content of the page goes here -->
+
+  <header>
+    <!-- Semantic tag for the top of the page -->
+    <h1>Welcome to AstersTech</h1>
+    <p>Let's build the future together 🚀</p>
+  </header>
+
+  <main>
+    <!-- Main content of the webpage -->
+
+    <section class="card">
+      <!-- Card layout used for separation of content -->
+      <h2>Click the Button!</h2>
+      <p id="message">No button clicked yet.</p>
+      <!-- The <p> will be updated by JS -->
+      <button onclick="handleClick()">Click Me</button>
+      <!-- Calls a JS function when clicked -->
+    </section>
+
+    <section class="form-section">
+      <h2>Say Hello</h2>
+      <form id="greetingForm">
+        <!-- This will not reload page thanks to JS -->
+        <input type="text" id="nameInput" placeholder="Enter your name" required />
+        <!-- Required means the user can't submit an empty form -->
+        <button type="submit">Greet Me</button>
+      </form>
+      <p id="greetingOutput"></p>
+      <!-- JS will display a greeting message here -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer always at the bottom -->
+    <p>© 2025 AstersTech Bootcamp</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Connects external JS file -->
+</body>
+</html>

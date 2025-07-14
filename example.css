@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles apply to the whole page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Centered header with styled title */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #2a73cc; /* Primary brand color */
+  }
+  
+  /* Main content area */
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Card section styles */
+  .card, .form-section {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #2a73cc;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1f5db2;
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  /* Footer section */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
