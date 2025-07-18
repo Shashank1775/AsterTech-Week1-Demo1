@@ -66,6 +66,7 @@ Live Server lets you preview your website live inside Codespaces.
 - Modify the files as you like.
 - Try adding new content, styles, or JavaScript interactions.
 - See your changes reflected instantly.
+- Add atleast five tags from this: https://www.semrush.com/blog/html-tags-list/ 
 
 ---
 
